@@ -1,0 +1,503 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    
+}
+
+.home-container {
+    height: 100vh;
+}
+
+.nav-container {
+   background-color: #f4f8fa;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f4f8fa;
+    
+    padding: 10px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 15px 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-nav{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1dc9cb;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.gk {
+    height: 500px;
+}
+
+.h-main-head {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.h-second-head{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.btn-group {
+    margin-top: 40px;
+}
+
+.buy-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.ways-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 30px;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+
+/* journal css  */
+
+
+
+.journal {
+    width: 75%;
+    padding: 60px 0px;
+    margin: auto;
+}
+
+.journal-head {
+    margin: 0 0 16px;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.j-para {
+    font-size: 16px;
+    color: #8d97ad;
+    margin: 0 0 24px;
+    text-align: left;
+}
+
+.journal-middle {
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.journal-card {
+   
+}
+
+.journal-img-cont{
+    
+}
+
+.journal-img-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.jc-para {
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    line-height: 1.6;
+    color: #8d97ad;
+}
+
+.read-more {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 16px 0px 0px;
+    padding: 8px;
+    color: #1dc9cb;
+}
+
+.journal-bottom {
+    margin: auto;
+    width: 85%;
+    padding: 60px 0px;
+}
+
+.jb-container {
+    margin: auto;
+    width: 80%;
+}
+
+.jb-container p {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #8d97ad;
+}
+
+ /* emailbox */
+
+.email-box-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.email-group {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+.eb-head {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.eb-email {
+    padding: 0px 28.8px;
+    font-size: 18px;
+    height: 2.7em;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.btn-want {
+    font-size: 16px;
+    background-color: #1dc9cb;
+    text-decoration: none;
+    padding: 12px 35px;
+    height: 100%;
+    border-radius: 3px;
+    color: #ffffff;
+    outline: none;
+    margin-left: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+
+ /* grid design  */
+
+ .grid-root {
+    padding: 90px 0;
+ }
+
+ .grid-container {
+    padding: 0;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .grid {
+    padding: 32px;
+    width: 350px;
+    border-radius: 0.25rem;
+    margin: 15px;  
+ }
+
+ .grid h3 {
+    color: #ffffff;
+    font-size: 19.2px;
+    font-weight: 500;
+    padding: 0 0 16px;
+    margin: 0 0 8px;
+ }
+
+ .grid p {
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    line-height: 1.6;
+    color: #efefef;
+ }
+
+ .green {
+    background: linear-gradient(45deg, #2bdc9d, #1dc9cb);
+ }
+
+ .blue {
+    background: linear-gradient(45deg, #188ef4, #306de8);
+ }
+
+ .red {
+    background: linear-gradient(45deg, #ff4f7b, #ff695c);
+ }
+
+ .read {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 16px 0px 0px;
+    padding: 8px;
+    color: #ffffff;
+ }
+
+
+ /* quote css */
+
+ 
+ .quote-row {
+    margin: 0 64px;
+    padding: 0 15px;
+ }
+
+ .q-c {
+    font-size: 50px;
+    color: #e8e8e8;
+ }
+
+ .quote-content {
+    font-size: 19.2px;
+    padding: 0 0 16px;
+    color: #b8b8b8;
+ }
+
+
+ /* travel  */
+
+ .travel-container {
+    padding: 50px 0 0;
+ }
+ .travel-row {
+    width: 75%;
+    /* padding: 0 70px; */
+    margin: auto;
+ }
+
+ .ways-card {
+    padding: 16px 16px 48px;
+ }
+
+ .offer-heading {
+    margin: 0 0 24px;
+ }
+
+ .offer-para {
+    margin: 0 0 20px;
+    color: #b8b8b8;
+ }
+
+ .btn-template {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 90%;
+    margin:  6.4px 0;
+    padding: 12.8px 18px ;
+    background-color: #1dc9cb;
+    border-radius: 5px;
+    color: #ffffff;
+ }
+
+ .air-card, .train-card {
+    padding: 16px 16px 48px;
+ }
+
+
+ .air-card img, .train-card img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 32px;
+ }
+
+
+ .card-title {
+    font-size: 19.2px;
+    margin: 0 0 12px;
+    color: #232323;
+ }
+
+ .card-para {
+    color: #8d97ad;
+    font-size: 16px;
+    margin: 0 0 16px;
+ }
+
+
+ /* blog cards */
+
+ .blog-container {
+    padding: 45px 0 90px;
+ }
+
+ .blog-row {
+    width: 75%;
+    margin: auto;
+ }
+
+ .card-row {
+    margin: auto;
+ }
+
+ .blog-head {
+    font-size: 28.8px;
+    margin: 0 0 24px;
+    text-align: center;
+ }
+
+ .blog-small-head {
+    font-size: 19.2px;
+    margin: 0 0 24px;
+    text-align: center;
+    color: #b8b8b8;
+ }
+
+ .blog-card {
+    padding: 1rem 1rem 2rem 1rem;
+ }
+
+ .bc-block {
+    padding: 32px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ }
+
+ .bc-img {
+    width: 100%;
+ }
+
+ .bc-head {
+    color: #232323;
+    font-size: 19.2px;
+    margin: 0 0 12px;
+    text-align: center;
+ }
+
+ .bc-para {
+    font-size: 16px;
+    margin: 0 0 16px;
+    text-align: center;
+    color: #8d97ad;
+ }
+
+ .rm-blog {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    color: #1dc9cb;
+ }
+
+
+ /* footer  */
+
+ .footer-container {
+   padding: 60px 0;
+   background-color: #f4f8fa;
+   
+ }
+
+ .footer-row {
+   padding: 0 15px;
+   width: 75%;
+ }
+
+.f-heading {
+   font-size: 20.8px;
+   margin: 0 0 8px;
+   padding: 0 0 16px;
+   color: #000000;
+   font-weight: bold;
+   line-height: 1;
+}
+
+.f-para {
+   margin: 0 0 16px;
+   word-wrap: break-word;
+}
+
+.f-block {
+   padding: 0 16px;
+   color: #8d97ad;
+}
+
+.f-head {
+   font-size: 20.8px;
+   color: #000000;
+   margin: 0 0 8px;
+   line-height: 1;
+   padding: 0 0 16px;
+}
+
+.icon {
+   font-size: 14px;
+   padding: 10px;
+   width: 50px;
+   height: 50px;
+   margin-right: 5px;
+   background-color: #52e5e5;
+   color: white;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.f-icon-group a {
+   text-decoration: none;
+}
